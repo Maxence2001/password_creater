@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    }
+    
+    header {
+        text-align: center;
+        margin: auto;
+        margin: 0px auto;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        width: 90%;
+        max-width: 600px;
+        ;
+    }
+    
+    body {
+        background-color: #0d3045;
+        color: #f5f5f5;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .container {
+        margin: 0px auto;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        width: 90%;
+        max-width: 600px;
+        ;
+    }
+    
+    .btn :hover {
+        cursor: pointer;
+        color: aqua;
+    }
+    
+    .btn {
+        background-color: #1c90f4;
+        padding: 15px;
+        width: 150px;
+        font-size: 16px;
+        margin: 0px 10px;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    
+    .rond {
+        border-radius: 20px;
+        width: 50px;
+    }
+    
+    .count {
+        text-align: center;
+        margin: auto;
+        font-size: 200px;
+        font-weight: bolder;
+    }
+    
+    .string-reverse-answer {
+        background-color: #02131c;
+        border-radius: 10px;
+        font-size: 30px;
+        /* Réduisez la taille du texte pour un meilleur affichage */
+        margin: 25px auto;
+        max-width: 500px;
+        padding: 10px;
+        width: 90%;
+        overflow-wrap: break-word;
+        /* Permet de diviser les mots longs pour éviter le débordement */
+        text-align: center;
+        overflow: hidden;
+        /* Masque tout débordement éventuel */
+        white-space: normal;
+        /* Permet de revenir à la ligne automatiquement */
+    }
+    
+    .input-reverse {
+        margin: 25px 0;
+        background-color: #02131c;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        max-width: 500px;
+        padding: 15px;
+        width: 90%;
+    }
+    
+    .menu-item {
+        background-color: #03141d;
+        border-radius: 10px;
+        list-style: none;
+        margin: 20px auto;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .link {
+        color: #f5f5f5;
+        font-size: 35px;
+        text-decoration: none;
+    }
+    
+    label {
+        width: 300px;
+        height: 500px;
+    }
+    
+    .aleft {
+        text-align: left;
+        margin: auto;
+    }
+    
+    .container-text {
+        max-width: 600px;
+        width: 95%;
+    }
